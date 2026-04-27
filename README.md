@@ -10,7 +10,7 @@ Clone the repository, install "pip install -r requirements.txt" to get the assoc
 # Video link:
 
 # Evaluation
-All models were evaluated on over a thousand situations that were not seen in the initial training. The baseline model, which predicts the most likely outcome, sits at 50% and does not learn from the training. The logistic regression model sits at around 63% and the random forest model sits at around 62%. The logistic regression model is the best performing model, likely because win likelihood increases with the strength of the hand.
+All models were evaluated on over a thousand situations that were not seen in the initial training. The baseline model, which predicts the most likely outcome, sits at 50% and does not learn from the training. The neural net performs at around 60%. The logistic regression model sits at around 63% and the random forest model sits at around 62%. The logistic regression model is the best performing model, likely because win likelihood increases with the strength of the hand.
 
 ## Evaluation: Feature Importance
 After testing Random Forest configurations, I did data analysis to see what Random Forest learned. The conclusion was that the most important features were hand strength and trump count, with hand strength sensibly coming in the lead because it evaluates the other features. The code file has visualizations demonstrating the results, but they are also pasted below.
@@ -34,7 +34,7 @@ At the end of the file, I performed an ablation study to determine how important
 | Core       | Standard    | 0.6067       | 0.6174       |
 | Core       | Balanced    | 0.6067       | 0.6174       |
 
-## Relavant Scholarly Work
+## Relevant Scholarly Work
 As I was constructing the paper I found a thesis on AI in Euchre. It expanded on my thought process by introducing the possability of Markov decision making and a User Friendly Agent that can predict patterns better in a partenership (as Euchre is played). It also introduces a Hybrid User Friendly Agent that balances aggressive versus cautious ways of playing that are visible in more simple models.
 
 Seelbinder, Benjamin E. Cooperative Artificial Intelligence in the Euchre Card Game, University of Nevada, Reno, United States -- Nevada, 2012. ProQuest, https://login.proxy.lib.duke.edu/login?url=https://www.proquest.com/dissertations-theses/cooperative-artificial-intelligence-euchre-card/docview/1285529898/se-2.
