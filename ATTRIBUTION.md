@@ -8,7 +8,7 @@ This was the most iterative part of the project. The original version used `stre
 However, the model was still inconsistent and inaccurate. I realized why after printing the empirical distribution of hand strengths (min=42, max=86, mean=median=62). 
 Finally, I changed the formula to its current state:  `0.5 + (strength - 62) / 50`.
 
-I asked for appropriate values for the linear layers of EuchreNet.
+Claude provided EuchreNet architecture.
 
 For the out-of-bag early stopping loop, Claude provided preliminary loop structure, but I chose the estimators and extended it to focus on plateau behavior. I also wrote the analysis.
 
