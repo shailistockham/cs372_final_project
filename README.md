@@ -7,7 +7,9 @@ It is important to note that the numbers I display in the README and in the anal
 # Quick Start
 Clone the repository, install "pip install -r requirements.txt" to get the associated libraries, and then open Euchre_bot.ipynb on the platform of your choice and run the cells.
 
-# Video link:
+# Video links:
+Project demo [video2850895539.mp4](video2850895539.mp4)
+My long walkthrough was too large to upload to Git repo. Here is a Google Drive link: [https://drive.google.com/file/d/19AuDSJSguMakn_RNN3jQmkeY95J1AKKj/view?usp=drive_link]
 
 # Evaluation
 All models were evaluated on over a thousand situations that were not seen in the initial training. The baseline model, which predicts the most likely outcome, sits at 50% and does not learn from the training. The neural net performs at around 60%. The logistic regression model sits at around 63% and the random forest model sits at around 62%. The logistic regression model is the best performing model, likely because win likelihood increases with the strength of the hand.
