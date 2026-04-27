@@ -9,6 +9,8 @@ Clone the repository, install "pip install -r requirements.txt" to get the assoc
 
 # Video links:
 Project demo [video2850895539.mp4](video2850895539.mp4)
+Right now, I think the video is too large for Git preview. You should be able to download it. If that doesn't work, here is a Google Drive Link: [https://drive.google.com/file/d/17BJ-40la-IM-dGYxRoToK_sWX8oK3bk-/view?usp=drive_link]
+
 My long walkthrough was too large to upload to Git repo. Here is a Google Drive link: [https://drive.google.com/file/d/19AuDSJSguMakn_RNN3jQmkeY95J1AKKj/view?usp=drive_link]
 
 # Evaluation
