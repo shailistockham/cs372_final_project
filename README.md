@@ -34,4 +34,7 @@ At the end of the file, I performed an ablation study to determine how important
 | Core       | Standard    | 0.6067       | 0.6174       |
 | Core       | Balanced    | 0.6067       | 0.6174       |
 
+## Relavant Scholarly Work
+As I was constructing the paper I found a thesis on AI in Euchre. It expanded on my thought process by introducing the possability of Markov decision making and a User Friendly Agent that can predict patterns better in a partenership (as Euchre is played). It also introduces a Hybrid User Friendly Agent that balances aggressive versus cautious ways of playing that are visible in more simple models.
 
+Seelbinder, Benjamin E. Cooperative Artificial Intelligence in the Euchre Card Game, University of Nevada, Reno, United States -- Nevada, 2012. ProQuest, https://login.proxy.lib.duke.edu/login?url=https://www.proquest.com/dissertations-theses/cooperative-artificial-intelligence-euchre-card/docview/1285529898/se-2.
